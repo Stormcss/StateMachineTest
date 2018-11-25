@@ -14,7 +14,7 @@ public class StateMachineListener<S, E> extends StateMachineListenerAdapter<S, E
 
     @Override
     public void stateChanged(State from, State to) {
-        log.debug(String.format("State changed from %s to %s%n", from == null ? "none" : from.getId(), to.getId()));
+//        log.debug(String.format("State changed from %s to %s%n", from == null ? "none" : from.getId(), to.getId()));
     }
 
     @Override
