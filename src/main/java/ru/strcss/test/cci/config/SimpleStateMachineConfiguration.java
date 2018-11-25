@@ -160,8 +160,6 @@ public class SimpleStateMachineConfiguration
                     .put(REQUEST, request);
 
             log.warn("request is closed...: {}", context.getEvent());
-
-//            context.getStateMachine().sendEvent(eApprove);
         };
     }
 }
